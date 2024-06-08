@@ -14,7 +14,7 @@
 
 body {
     margin: 0;
-    padding 0;
+    padding: 0;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: var(--dark);
@@ -142,10 +142,10 @@ main {
     border: 8px solid var(--tertiary);
     display: flex;
     min-height: 200px;
-    max-height: 200px;
+    max-height: 300px;
     align-items: flex-end;
     justify-content: space-between;
-    padding 25px;
+    padding: 25px;
     font-size: 2rem;   
 }
 
@@ -177,15 +177,34 @@ main {
     font-size: var(--h2font-size);
 }
 
+/* h3 {
+    text-shadow: -3px -3px var(--blue), 3px -3px var(--blue), -3px 3px var(--blue), 3px 3px var(--blue);
+  } */
+
+  h3.outline-text {
+    outline-color: var(--blue);
+    outline-width: 3px;
+  }
+
 #work a {
     color: var(--tertiary);
     background-color: var(--dark);
     text-decoration: none;
 }
+#studyGuide {
+background-image: url("../assets/images/preworksg.png");
+background-position: center;
+background-repeat: no-repeat;
 
+background-size:contain;
+object-fit: fill;
+
+}
 #work a:hover {
+    padding: 20px;
     background: var(--blue);
-    bo
+   
+
 }
 
 #contact {
@@ -195,7 +214,7 @@ main {
 
 #contact h2 {
     font-size: 30px;
-    margin 15px;
+    margin: 15px;
     padding-left: 30px;
 }
 
