@@ -85,7 +85,7 @@ nav a:last-child {
 
 main {
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 
 .hero {
@@ -193,7 +193,7 @@ main {
 }
 #studyGuide {
 background-image: url("../assets/images/preworksg.png");
-background-position: center;
+background-position: calc(100% - 10px) center;
 background-repeat: no-repeat;
 
 background-size:contain;
@@ -207,9 +207,9 @@ object-fit: fill;
 
 }
 
-.studyGuide {
+/* .studyGuide {
     background-position: calc(100% - 10px) center;
-}
+} */
 
 #contact {
     color: var(--tertiary);
