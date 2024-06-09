@@ -153,7 +153,6 @@ main {
     flex-basis: 100%;
 }
 
-
 #about {
     color:var(--tertiary);
     background-color: var(--black);
@@ -164,7 +163,6 @@ main {
     font-size: var(--h2font-size);
 
 }
-
 
 #work {
     color: var(--tertiary);
@@ -180,7 +178,7 @@ main {
     text-shadow: -3px -3px var(--blue), 3px -3px var(--blue), -3px 3px var(--blue), 3px 3px var(--blue);
   } */
 
-  h3.outline-text {
+h3.outline-text {
     outline-color: var(--blue);
     outline-width: 3px;
   }
@@ -190,11 +188,11 @@ main {
     background-color: var(--dark);
     text-decoration: none;
 }
+
 #studyGuide {
 background-image: url("../assets/images/preworksg.png");
 background-position: calc(100% - 10px) center;
 background-repeat: no-repeat;
-
 background-size:contain;
 object-fit: fill;
 
@@ -202,8 +200,6 @@ object-fit: fill;
 #work a:hover {
     padding: 20px;
     background: var(--blue);
-   
-
 }
 
 /* .studyGuide {
